@@ -4,6 +4,12 @@
     "lib": [
       "es2022"
     ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "rootDir": "./",

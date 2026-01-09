@@ -10,4 +10,5 @@ const prisma = new PrismaClient({ adapter })
 
 export { prisma }
 console.log('🚀 ~ prisma:', prisma)
+
 export const app = fastify()

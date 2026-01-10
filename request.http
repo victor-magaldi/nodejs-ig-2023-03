@@ -1,0 +1,27 @@
+### Create a new User
+// @no-cookie-jar 
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "email":"victossr@teste.com",
+  "name":"Victor",
+  "password":"xxxxxxx"
+}
+
+
+### Get Transactions
+// @no-cookie-jar   remove cookie
+GET http://localhost:3333/transactions
+Cookie: {{cookie}}
+
+### Get Transactions by ID
+// @no-cookie-jar 
+GET http://localhost:3333/transactions/d58c9cfc-4cfa-4199-9cc4-f6aaa16d60cf
+Cookie: {{cookie}}
+
+### Get summary
+// @no-cookie-jar 
+GET http://localhost:3333/transactions/summary
+Cookie: {{cookie}}
+

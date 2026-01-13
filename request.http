@@ -4,24 +4,17 @@ POST http://localhost:3333/users
 Content-Type: application/json
 
 {
-  "email":"victor10012106@teste.com",
+  "email":"victor5502@teste.com",
   "name":"Victor",
-  "password":"xxxxxxx"
+  "password":"123456"
 }
 
-
-### Get Transactions
-// @no-cookie-jar   remove cookie
-GET http://localhost:3333/transactions
-Cookie: {{cookie}}
-
-### Get Transactions by ID
+### Login a new User
 // @no-cookie-jar 
-GET http://localhost:3333/transactions/d58c9cfc-4cfa-4199-9cc4-f6aaa16d60cf
-Cookie: {{cookie}}
+POST http://localhost:3333/sessions
+Content-Type: application/json
 
-### Get summary
-// @no-cookie-jar 
-GET http://localhost:3333/transactions/summary
-Cookie: {{cookie}}
-
+{
+  "email":"victor5502@teste.com",
+  "password":"123456"
+}

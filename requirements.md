@@ -14,7 +14,7 @@ Este projeto tem como objetivo gerenciar idas em academia como se fosse gym pass
 - [x] Deve ser possível o usuário buscar academias próximas;
 - [x] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-in em uma academia;
-- [ ] Deve ser possível validar o Check-in de um usuário;
+- [x] Deve ser possível validar o Check-in de um usuário;
 - [x] Deve ser possível Cadastrar uma Academia;
 
 
@@ -25,7 +25,7 @@ Este projeto tem como objetivo gerenciar idas em academia como se fosse gym pass
 - [x] O usuário não pode se cadastrar com e-mail duplicado
 - [x] O usuário não pode fazer 2 check-ins no mesmo dia
 - [x] O usuário não pode fazer Check-in se não estiver no mínimo de 100 metros
-- [ ] O Check-in só pode ser validado até 20 minutos depois de criado
+- [x] O Check-in só pode ser validado até 20 minutos depois de criado
 - [ ] O Check-in só pode ser validado por Administradores
 - [ ] Academias só podem ser cadastradas por Administradores
 

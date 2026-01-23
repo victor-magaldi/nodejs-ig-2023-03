@@ -1,8 +1,11 @@
 # Gym API
 
-## Install Dependencies
+## Install Dependencies and up Image
 ```
 npm install
+```
+```
+ docker-compose up -d
 ```
 ## Run dev
 ```

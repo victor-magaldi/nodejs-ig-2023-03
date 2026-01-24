@@ -5,7 +5,7 @@ export async function profile(request: FastifyRequest, reply: FastifyReply) {
   try {
     const data = await request.jwtVerify()
     console.log('🚀 ~ profile ~ data:', data)
-    reply.send({ ok: true })
+    reply.send({ ok: true, sub: request.user.sub })
   } catch (err) {
     reply.send(err)
   }

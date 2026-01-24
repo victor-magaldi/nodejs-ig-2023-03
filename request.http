@@ -18,3 +18,8 @@ Content-Type: application/json
   "email":"victor5502@teste.com",
   "password":"123456"
 }
+
+### GET  validate jwt
+GET http://localhost:3333/me
+Content-Type: application/json
+Authorization: Bearer tokenRequsteSession

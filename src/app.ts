@@ -5,7 +5,6 @@ import { appRoutes } from './http/routes'
 import { env } from '@/env'
 import { z, ZodError } from 'zod'
 
-console.log('🚀 ~ env:', env)
 export const app = fastify()
 
 app.register(appRoutes)

@@ -89,6 +89,13 @@ npx prisma migrate dev
 ```bash
 npx prisma migrate deploy
 ```
+#### Ambiente Isolado E2E
+Para terum ambiente isolado nos testes E2E, foi criado um arquivo .env.test com uma URL de conexão ao banco de dados Postgres diferente.
+Execute o seguinte comando para realizar a migration neste outro banco de dados.
+
+```bash
+npm run "migrate:test"
+```
 
 ### Gerar o Prisma Client
 
